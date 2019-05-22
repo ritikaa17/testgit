@@ -1,2 +1,3 @@
 FROM nginx
 MAINTAINER "bhavya"
+EXPOSE 8500
