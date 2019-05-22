@@ -1,4 +1,4 @@
 FROM nginx
 MAINTAINER "bhavya"
+COPY index.html /usr/share/nginx/html
 EXPOSE 8500
-CMD ["nginx", "-g", "daemon", "off"]
